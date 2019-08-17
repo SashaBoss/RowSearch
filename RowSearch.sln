@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowSearch", "RowSearch\RowSearch.csproj", "{2786EF76-AD3B-48C2-ACA6-D1C962FFB84F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowSearch.Tests", "RowSearch.Tests\RowSearch.Tests.csproj", "{26F4532B-B03B-4E11-9D54-8C8D10DE0E6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2786EF76-AD3B-48C2-ACA6-D1C962FFB84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2786EF76-AD3B-48C2-ACA6-D1C962FFB84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2786EF76-AD3B-48C2-ACA6-D1C962FFB84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2786EF76-AD3B-48C2-ACA6-D1C962FFB84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F4532B-B03B-4E11-9D54-8C8D10DE0E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F4532B-B03B-4E11-9D54-8C8D10DE0E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F4532B-B03B-4E11-9D54-8C8D10DE0E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F4532B-B03B-4E11-9D54-8C8D10DE0E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
