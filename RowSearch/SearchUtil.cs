@@ -19,12 +19,11 @@ namespace RowSearch
         private static IList<Row> CreateSearchCollection(string[] lines)
         {
             var rows = new List<Row>();
-           
             
             for (int i = 0; i < lines.Length; i++)
             {
                 var row = Row.Create(lines[i]);
-                row.RowNumber = i + 1;
+                row.RowNumber = i + 1; // add +1 because row number is not an index
                 rows.Add(row);
             }
 
